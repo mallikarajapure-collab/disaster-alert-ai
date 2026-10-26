@@ -1,96 +1,105 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F1D1D,50:DC2626,100:FB923C&height=210&section=header&text=DISASTER%20ALERT%20AI&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=AI-Based%20Disaster%20Safety%20Helper&descAlignY=60&descSize=15" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C2D12,45:EA580C,100:DC2626&height=220&section=header&text=DISASTER%20ALERT%20AI&fontSize=42&fontColor=FFFFFF&fontAlignY=36&desc=Preparedness%20Starts%20With%20Clear%20Guidance&descAlignY=59&descSize=15" width="100%" alt="Disaster Alert AI — orange and red header" />
+
+<p><strong>An AI-based disaster safety helper explored through Google AI Studio and prompt engineering.</strong></p>
+
+<p>
+  <img src="https://img.shields.io/badge/Domain-Disaster%20Preparedness-EA580C?style=for-the-badge" alt="Domain: Disaster Preparedness" />
+  <img src="https://img.shields.io/badge/Approach-Prompt%20Engineering-DC2626?style=for-the-badge" alt="Approach: Prompt Engineering" />
+  <img src="https://img.shields.io/badge/Prototype-Educational-9A3412?style=for-the-badge" alt="Educational prototype" />
+</p>
 
 </div>
 
 ---
 
-# 🛰️ Disaster Alert AI
- Disaster Safety Assistant
+## 🚨 About the Project
 
-Disaster Alert AI is an AI-based disaster safety assistant designed to help people understand emergency situations and access clear, supportive safety guidance during natural disasters.
+**Disaster Alert AI** is an experimental generative-AI concept designed to help users understand basic safety guidance when they describe a natural-disaster scenario. The prototype explores how carefully written prompts can organize responses into understandable, practical steps.
 
-Built using **Google AI Studio and prompt engineering**, the project explores how generative AI can communicate essential safety information in a simple, structured, and user-friendly way.
+The project was created using **Google AI Studio** and **prompt engineering**. It is a prompt-based prototype, not a deployed emergency-alert service.
 
-🌍 Key Features
+## 🌋 What It Explores
 
-Disaster Type Identification: Helps identify the type of disaster described by the user, including earthquakes, floods, fires, and storms.
+| Capability | Intended use |
+| --- | --- |
+| Disaster scenario interpretation | Helps interpret a user-described event such as an earthquake, flood, fire, or storm |
+| Safety guidance | Produces relevant, general safety instructions |
+| Emergency action steps | Organizes possible next steps into a clear response |
+| Emergency-kit suggestions | Lists supplies users may want to prepare in advance |
+| Calm, readable responses | Presents information in a supportive and easy-to-follow format |
 
-Safety Instructions: Provides relevant safety guidance based on the reported situation.
+> These are intended prototype behaviours. AI responses can be incomplete or incorrect, and should never be treated as verified emergency instructions.
 
-Emergency Steps: Outlines practical steps to help users respond to emergencies.
+## 🧠 Technology & Approach
 
-Emergency Kit Suggestions: Recommends essential supplies to consider preparing for emergencies.
+<div align="center">
 
-Calm and Supportive Responses: Uses clear, reassuring language to make information easier to understand during stressful situations.
+<img src="https://img.shields.io/badge/Google%20AI%20Studio-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google AI Studio" />
+<img src="https://img.shields.io/badge/Generative%20AI-7C3AED?style=flat-square" alt="Generative AI" />
+<img src="https://img.shields.io/badge/Prompt%20Engineering-EA580C?style=flat-square" alt="Prompt Engineering" />
 
-🧠 Technology Stack
+</div>
 
-Google AI Studio — AI prototyping and prompt development
+- **Google AI Studio** — used to prototype and refine AI instructions.
+- **Prompt engineering** — structures the task and the expected response.
+- **Generative AI** — explores conversational safety guidance based on the user's description.
 
-Prompt Engineering — Structuring instructions to generate relevant, organized responses
+This repository currently contains a README and a small project-description file (ai project); it does not include a standalone application, backend API, or automated disaster-detection pipeline.
 
-Generative AI — Producing conversational disaster-safety guidance
+## 🔄 Conceptual Workflow
 
-🎯 Project Objective
+1. **Describe:** A user explains a disaster-related scenario.
+2. **Interpret:** The AI uses the prompt to interpret the description.
+3. **Organize:** The response is structured around safety guidance, possible action steps, and preparedness supplies.
+4. **Verify:** The user should check advice against official emergency services and local authorities before acting.
 
-The objective of Disaster Alert AI is to explore how generative AI can make disaster-safety information easier to access and understand.
+## 🏙️ Why It Matters
 
-The project focuses on providing understandable emergency guidance that may help users prepare for unexpected situations and make more informed safety decisions.
+Clear, accessible preparedness information can help people think ahead before an emergency. This concept connects generative-AI exploration with **public safety awareness, disaster preparedness, and urban resilience**.
 
-⚙️ How It Works
+Possible future work could include verified official resources, multilingual guidance, and authorized alert integrations. These are ideas for future development, not current features.
 
-The user describes a disaster or emergency scenario.
+## ⚠️ Safety First
 
-The AI interprets the provided description and identifies the relevant disaster type.
+- **Not a real-time alert system:** the project does not independently detect disasters or confirm live incidents.
+- **Not an official source:** it is not connected to government warning systems or emergency responders.
+- **AI can make mistakes:** responses may be inaccurate, outdated, or unsuitable for a particular location.
+- **Follow official instructions:** during an emergency, follow local authorities and emergency services. Do not delay evacuation or urgent assistance to consult an AI tool.
 
-The AI generates safety instructions, suggested emergency steps, and emergency-kit recommendations.
+## 🗂️ Repository Structure
 
-The user receives the guidance in a clear, structured, and supportive format.
+```text
+disaster-alert-ai/
+├── README.md
+└── ai project
+```
 
-🏙️ Relevance to Smart City Safety
+## 🔮 Future Enhancements
 
-Disaster Alert AI aligns with the broader goal of improving public awareness and disaster preparedness through technology.
+- Link to verified, official disaster-preparedness resources.
+- Add carefully reviewed, multilingual safety prompts.
+- Provide location-aware information only through reliable, authorized sources.
+- Add structured response checks and scenario-based safety testing.
+- Build a dedicated interface if the project expands beyond prompt prototyping.
 
-It is relevant to the Urban Resilience & Disaster Management theme of smart-city innovation. Further development could explore verified emergency resources, location-specific safety information, and integration with authorized alert systems.
+## 📌 Project Details
 
-⚠️ Safety Disclaimer
+| Item | Details |
+| --- | --- |
+| Project | Disaster Alert AI |
+| Focus | Generative AI and disaster preparedness |
+| Prototype tool | Google AI Studio |
+| Core technique | Prompt engineering |
+| Status | Educational concept / prompt prototype |
 
-Disaster Alert AI is an experimental AI-guidance prototype. It does not independently detect disasters, verify real-time emergencies, or replace official emergency alerts and professional responders.
+---
 
-AI-generated information may be incomplete or inaccurate. Always follow instructions from local authorities and official emergency services. In an immediate emergency, contact the appropriate local emergency service.
+<div align="center">
 
-🔮 Future Enhancements
+**Preparedness matters. Official guidance comes first.**
 
-Integration with verified, official disaster alerts
+<sub>Created for educational exploration of AI-assisted disaster-safety communication.</sub>
 
-Location-specific safety guidance
-
-Multilingual emergency instructions
-
-Verified emergency helplines and resources
-
-A user-friendly web or mobile application
-
-Improved response validation and safety testing
-
-These are potential future enhancements, not currently implemented features.
-
-👩‍💻 Project Information
-
-Project Name: Disaster Alert AI
-
-Domain: Generative AI and Disaster Safety
-
-Developed Using: Google AI Studio
-
-Core Approach: Prompt Engineering
-
-Potential Application: Public safety awareness and disaster preparedness
-
-📄 License
-
-A license can be added when the project's distribution and reuse terms have been decided.
-
-Disclaimer: This project is intended for educational and informational purposes. It is not a substitute for official warnings, emergency response systems, or professional advice.
+</div>
