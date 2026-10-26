@@ -1,3 +1,11 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F1D1D,50:DC2626,100:FB923C&height=210&section=header&text=DISASTER%20ALERT%20AI&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=AI-Based%20Disaster%20Safety%20Helper&descAlignY=60&descSize=15" width="100%" />
+
+</div>
+
+---
+
 # 🛰️ Disaster Alert AI
  Disaster Safety Assistant
 
